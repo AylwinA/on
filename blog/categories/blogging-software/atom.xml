@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[An Off-Topic Blog]]></title>
-  <link href="http://git@heroku.com:stark-anchorage-8425.git/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Blogging-software | An Off-Topic Blog]]></title>
+  <link href="http://git@heroku.com:stark-anchorage-8425.git/blog/categories/blogging-software/atom.xml" rel="self"/>
   <link href="http://git@heroku.com:stark-anchorage-8425.git/"/>
   <updated>2014-11-22T12:29:10-08:00</updated>
   <id>http://git@heroku.com:stark-anchorage-8425.git/</id>
