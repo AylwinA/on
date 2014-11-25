@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Free-sites | An Off-Topic Blog]]></title>
-  <link href="http://git@heroku.com:stark-anchorage-8425.git/blog/categories/free-sites/atom.xml" rel="self"/>
-  <link href="http://git@heroku.com:stark-anchorage-8425.git/"/>
-  <updated>2014-11-24T16:58:00-08:00</updated>
-  <id>http://git@heroku.com:stark-anchorage-8425.git/</id>
+  <link href="http://aylwina.github.io/on//blog/categories/free-sites/atom.xml" rel="self"/>
+  <link href="http://aylwina.github.io/on//"/>
+  <updated>2014-11-24T19:09:43-08:00</updated>
+  <id>http://aylwina.github.io/on//</id>
   <author>
     <name><![CDATA[Aylwin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Trial and Error]]></title>
-    <link href="http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/21/trial-and-error/"/>
+    <link href="http://aylwina.github.io/on//blog/2014/11/21/trial-and-error/"/>
     <updated>2014-11-21T12:06:58-08:00</updated>
-    <id>http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/21/trial-and-error</id>
+    <id>http://aylwina.github.io/on//blog/2014/11/21/trial-and-error</id>
     <content type="html"><![CDATA[<p>I have to confess this isn&rsquo;t my first blog. While living in china I tried out a blogging site that I filled with pictures to flesh out bare accounts about my travels. Then microsoft&rsquo;s corporate wizards merged what I had adopted as my platform with another. The formatting was altered so much that the bulk of my images looked pathetic. I was lazy about fixing them, which in hindsight was probably a good thing. Soon after, the great firewall of china reared up and blocked the new site completely. I chose to abandon it.</p>
 
 <p>My next effort was part of my own small business website that was supposed to promote the wide range of my developer skills. As you can guess, that cramped my creativity. A lot. There was no way I could rant about trivia on a site promoting dull but reliable web-design efforts. The site cost more than the work it was bringing in (none) so eventually it too was abandoned.</p>

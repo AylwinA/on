@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/22/a-failure-to-communicate/</loc>
+    <loc>http://aylwina.github.io/on//blog/2014/11/22/a-failure-to-communicate/</loc>
     <lastmod>2014-11-22T20:29:57-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/22/a-failure-to-communicate/</loc>
-    <lastmod>2014-11-22T00:00:00-08:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/21/trial-and-error/</loc>
+    <loc>http://aylwina.github.io/on//blog/2014/11/21/trial-and-error/</loc>
     <lastmod>2014-11-21T12:06:58-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://git@heroku.com:stark-anchorage-8425.git/blog/archives/</loc>
-    <lastmod>2014-11-24T16:58:00-08:00</lastmod>
+    <loc>http://aylwina.github.io/on//blog/archives/</loc>
+    <lastmod>2014-11-24T19:09:43-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://git@heroku.com:stark-anchorage-8425.git/</loc>
-    <lastmod>2014-11-24T16:58:00-08:00</lastmod>
+    <loc>http://aylwina.github.io/on//</loc>
+    <lastmod>2014-11-24T19:09:43-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

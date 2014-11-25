@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[An Off-Topic Blog]]></title>
-  <link href="http://git@heroku.com:stark-anchorage-8425.git/atom.xml" rel="self"/>
-  <link href="http://git@heroku.com:stark-anchorage-8425.git/"/>
-  <updated>2014-11-24T16:58:00-08:00</updated>
-  <id>http://git@heroku.com:stark-anchorage-8425.git/</id>
+  <link href="http://aylwina.github.io/on//atom.xml" rel="self"/>
+  <link href="http://aylwina.github.io/on//"/>
+  <updated>2014-11-24T19:09:43-08:00</updated>
+  <id>http://aylwina.github.io/on//</id>
   <author>
     <name><![CDATA[Aylwin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Failure to Communicate]]></title>
-    <link href="http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/22/a-failure-to-communicate/"/>
+    <link href="http://aylwina.github.io/on//blog/2014/11/22/a-failure-to-communicate/"/>
     <updated>2014-11-22T20:29:57-08:00</updated>
-    <id>http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/22/a-failure-to-communicate</id>
+    <id>http://aylwina.github.io/on//blog/2014/11/22/a-failure-to-communicate</id>
     <content type="html"><![CDATA[<p>Fewer and fewer people believe they know how to make friends. We have all kinds of bigger things to worry about, yet this small failing can easily make life miserable. The modern solution is to plead being some flavor of &lsquo;autistic&rsquo;, as if this is an all purpose replacement for social incompetence. Unfortunately it isn&rsquo;t.</p>
 
 <p>In our culture of strangers, where we may never talk to our own neighbours, poor social skills are a real problem. Unless we find some &lsquo;safe&rsquo; time to learn how to talk to strangers, we&rsquo;ll never make friends, never form new relationships. We&rsquo;ll just be another lost soul, hurrying through life with eyes downcast, unaware of all the fascinating and irritating life around us. Some skill at interacting with those who do fall into our orbit is essential to enjoying life.</p>
@@ -47,39 +47,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[A Failure to Communicate]]></title>
-    <link href="http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/22/a-failure-to-communicate/"/>
-    <updated>2014-11-22T00:00:00-08:00</updated>
-    <id>http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/22/a-failure-to-communicate</id>
-    <content type="html"><![CDATA[<hr>
-<p>layout: post
-title: &quot;A failure to communicate&quot;
-date: 2014-11-22 20:29:57 -0800
-comments: true</p>
-<h2 id="categories-autism-socialization-friends">categories: autism socialization friends</h2>
-<p>Fewer and fewer people believe they know how to make friends. We have all kinds of bigger things to worry about, yet this small failing can easily make life miserable. The modern solution is to plead being some flavor of &#39;autistic&#39;, as if this is an all purpose replacement for social incompetence. Unfortunately it isn&#39;t.</p>
-<p>In our culture of strangers, where we may never talk to our own neighbours, poor social skills are a real problem. Unless we find some &#39;safe&#39; time to learn how to talk to strangers, we&#39;ll never make friends, never form new relationships. We&#39;ll just be another lost soul, hurrying through life with eyes downcast, unaware of all the fascinating and irritating life around us. Some skill at interacting with those who do fall into our orbit is essential to enjoying life.</p>
-<p>The challenges of enjoying other people&#39;s company can be thought of in two parts. First we want a way to render the disgruntled people life forces us to interact with on a daily basis more amiable. Second, we need to find better ways to meet those who are, for some odd reason, predisposed to enjoy being around us.</p>
-<p>So what is it that we need to change? For now, I&#39;ll stick to the first challenge, getting twits to be more accommodating. My favourite instruction is to &quot;think good thoughts&quot; about the people we deal with. Some people make that particularly hard to do, but with a little luck our positive influence helps them to start thinking better of us&mdash;even while they continue behaving like jerks. Remember, you aren&#39;t going to change their nature, just the degree of animosity you have to endure from them.</p>
-<p>The heart of this skill is finding something&mdash;<em>anything</em>&mdash;about them to sympathize with. If it doesn&#39;t work, complain to Will Rogers. He&#39;s the one who claimed: &quot;I never met a man I couldn&#39;t like.&quot; Arriving at equanimity may take research. Surely your foe can&#39;t be a failure in <em>every</em> aspect of their lives. (In case that doesn&#39;t turn out to be true, I can only suggest you flee their influence as far and fast as humanly possible)</p>
-<p>A corollary of that instruction is to avoid giving into the temptation to bad-mouth blockheads. Yes, they deserve it, and it does make you feel better. Well, at least temporarily. The problem is that louts <strong>will</strong> hear about your complaints. Usually presented to them in the worst possible light. Keeping your mouth shut with a little luck will fool evil idiots into suspecting you are a better person than you really are. Isn&#39;t it better to leave trolls confused rather than becoming all angry and vicious the moment they see you?</p>
-<p>We both know that thinking well of others, even when they act foolishly, is not an easy or quick solution. And we by nature prefer easy short term solutions. I can only suggest trying it out, seeing if it will work for you. Since by nature we resist change, some effort will be involved. The root of resistance to change is the delusion that our opinions are inviolable, that they define who we are. But Kongzi, who oddly enough we call Confucius, told it straight:</p>
-<blockquote>
-<p>They must often change opinions who would be constant in happiness or wisdom.</p>
-</blockquote>
-<p>However, some people preferr their instructions to be more direct. Hence Lao Tzu:</p>
-<blockquote>
-<p>Treat those who are good with goodness, and also treat those who are not good with goodness. Thus goodness is attained. Be honest to those who are honest, and be also honest to those who are not honest. Thus honesty is attained.</p>
-<p>Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.</p>
-</blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Trial and Error]]></title>
-    <link href="http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/21/trial-and-error/"/>
+    <link href="http://aylwina.github.io/on//blog/2014/11/21/trial-and-error/"/>
     <updated>2014-11-21T12:06:58-08:00</updated>
-    <id>http://git@heroku.com:stark-anchorage-8425.git/blog/2014/11/21/trial-and-error</id>
+    <id>http://aylwina.github.io/on//blog/2014/11/21/trial-and-error</id>
     <content type="html"><![CDATA[<p>I have to confess this isn&rsquo;t my first blog. While living in china I tried out a blogging site that I filled with pictures to flesh out bare accounts about my travels. Then microsoft&rsquo;s corporate wizards merged what I had adopted as my platform with another. The formatting was altered so much that the bulk of my images looked pathetic. I was lazy about fixing them, which in hindsight was probably a good thing. Soon after, the great firewall of china reared up and blocked the new site completely. I chose to abandon it.</p>
 
 <p>My next effort was part of my own small business website that was supposed to promote the wide range of my developer skills. As you can guess, that cramped my creativity. A lot. There was no way I could rant about trivia on a site promoting dull but reliable web-design efforts. The site cost more than the work it was bringing in (none) so eventually it too was abandoned.</p>
@@ -94,7 +65,7 @@ comments: true</p>
 
 <p>Since you read this far, you might enjoy a picture from one of the adventures in china that inspired my original blog. Below is a scene from juihuashan, or nine flower mountain, a popular buddhist site. The original temple the pond graces was started shortly after the arrival, almost 1300 years ago, of an intensely devoted korean prince who chose to live in what was then the wilds of china and is even now barely touched by development. He spent 75 years living on the mountain as an impoverished but increasingly spiritually powerful buddhist monk. He is said to be still there, sitting in samadhi inside a massive bell sealed under the foundations of the main building. Throughout china he is known as the incarnation of the god of earth.</p>
 
-<p><img src="http://git@heroku.com:stark-anchorage-8425.git/images/Jiuhuashan-pond.jpg" alt="pond in front of Huacheng Temple" /></p>
+<p><img src="http://aylwina.github.io/on//images/Jiuhuashan-pond.jpg" alt="pond in front of Huacheng Temple" /></p>
 ]]></content>
   </entry>
   
