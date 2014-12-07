@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://aylwina.github.io/on//sitemap.xml 
+Sitemap: https://aylwina.github.io/on/sitemap.xml 
