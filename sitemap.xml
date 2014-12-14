@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aylwina.github.io/on/blog/2014/12/10/a-derivative-of-chaos/</loc>
+    <loc>https://aylwina.github.io/on/on/blog/2014/12/10/a-derivative-of-chaos/</loc>
     <lastmod>2014-12-10T01:34:00-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aylwina.github.io/on/blog/2014/12/08/the-existential-crisis-of-unread-posts/</loc>
+    <loc>https://aylwina.github.io/on/on/blog/2014/12/08/the-existential-crisis-of-unread-posts/</loc>
     <lastmod>2014-12-08T00:13:00-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aylwina.github.io/on/blog/2014/12/02/winter-traditions/</loc>
+    <loc>https://aylwina.github.io/on/on/blog/2014/12/02/winter-traditions/</loc>
     <lastmod>2014-12-02T02:19:00-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aylwina.github.io/on/blog/2014/11/27/siccing-the-law-on-ferguson/</loc>
+    <loc>https://aylwina.github.io/on/on/blog/2014/11/27/siccing-the-law-on-ferguson/</loc>
     <lastmod>2014-11-27T09:35:37-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aylwina.github.io/on/blog/2014/11/22/a-failure-to-communicate/</loc>
+    <loc>https://aylwina.github.io/on/on/blog/2014/11/22/a-failure-to-communicate/</loc>
     <lastmod>2014-11-22T12:29:57-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aylwina.github.io/on/blog/2014/11/21/trial-and-error/</loc>
+    <loc>https://aylwina.github.io/on/on/blog/2014/11/21/trial-and-error/</loc>
     <lastmod>2014-11-21T04:06:58-08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aylwina.github.io/on/blog/archives/</loc>
-    <lastmod>2014-12-10T19:23:16-08:00</lastmod>
+    <loc>https://aylwina.github.io/on/on/blog/archives/</loc>
+    <lastmod>2014-12-13T18:08:24-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aylwina.github.io/on/</loc>
-    <lastmod>2014-12-10T19:23:16-08:00</lastmod>
+    <loc>https://aylwina.github.io/on/on/</loc>
+    <lastmod>2014-12-13T18:08:24-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aylwina.github.io/on/on/photos/</loc>
+    <lastmod>2014-12-13T18:08:24-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
