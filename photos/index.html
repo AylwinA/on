@@ -9,7 +9,7 @@
   <meta name="author" content="Aylwin">
 
   
-  <meta name="description" content="This is a quiet spot on a trail in China's Yellow Mountain park. We hiked there near the end of a long drought. The streams had shrunk to mere &hellip;">
+  <meta name="description" content="Photo slideshow showing highlights of a hike through Yellow Mountain">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -47,7 +47,9 @@
 
 </head>
 
-<script src="/on/javascripts/picturefill.js"></script>
+
+
+
 <body class="wide-body no-sidebar">
   <nav role="navigation"><ul class="wide-navigation">
   <li><a href="/on/">Blog</a></li>
@@ -57,24 +59,56 @@
 </nav>
   <div id="main">
     <div id="content">
-      <p><picture>
+      <div id="slideshow" class="cycle-slideshow" 
+data-cycle-paused=true 
+data-cycle-slides="div"
+data-cycle-swipe=true
+data-cycle-prev="#prev"
+data-cycle-next="#next">
+
+<!-- prev/next links -->    
+<span id="next"><img class="first" src="/on/images/right_arrow.png"></span>
+<span id="prev"></span>
+
+<div class="first">
+    <picture>
     <source srcset="/on/images/resp/mindy-back-view-400by131-8c28f1.jpg" media="(max-width: 600)">
-    <source srcset="/on/images/resp/mindy-back-view-900by296-8c28f1.jpg" media="(min-width: 601)">
-    <source srcset="/on/images/resp/mindy-back-view-1920by631-8c28f1.jpg" media="(min-width: 1200px)">
+    <source srcset="/on/images/resp/mindy-back-view-900by296-8c28f1.jpg" media="(max-width: 1200)">
+    <source srcset="/on/images/resp/mindy-back-view-1920by631-8c28f1.jpg" media="(min-width: 1201px)">
     <source srcset="/on/images/resp/mindy-back-view-900by296-8c28f1.jpg">
     <img srcset="/on/images/resp/mindy-back-view-900by296-8c28f1.jpg" class="gallery-pict" itemprop="image" alt="Here's Mindy at a back valley of Yellow Mountain Park" >
-  </picture></p>
+  </picture>
 
-<p class="photo-words">
-This is a quiet spot on a trail in China&#8217;s Yellow Mountain park. We hiked there near the end of a long drought. The streams had shrunk to mere trickles and high thin clouds tantalized with promises of a rain that refused to come.<br>
+    
+    <p class="photo-words">
+    This is a quiet spot just off a trail in China&#8217;s Yellow Mountain park. We hiked there near the end of a long drought. The streams had shrunk to mere trickles and high thin clouds tantalized with promises of a rain that refused to come.<br>
+    
+    While enjoying the silence in that corner of the huge park, it was hard to believe that thousands were tramping their way up more popular trails. At the most famous peak viewpoints are crammed with hundreds of tourists sitting on the ground, raptly listening to guides explaining the history of strange looking rocks and other objects that feature in the legends of China.<br>
+    
+    There are so many beautiful places tucked into this area that a lot of Chinese films are shot here. Pivitol scenes from Crouching Tiger Hidden Dragon were filmed just around the corner from Mindy&#8217;s impromtu seat.
+    </p><br>
+</div>
 
-While enjoying the silence in that corner of the huge park, it was hard to believe that thousands were tramping their way up more popular trails. At the most famous peak crowds of hundreds of tourists sit on the ground, raptly listening to guides busy explaining the history of strange looking rocks and other objects that feature in the legends of China.<br>
+<div>
+    <picture>
+    <source srcset="/on/images/resp/mindy-ascent-400by111-11af66.jpg" media="(max-width: 600)">
+    <source srcset="/on/images/resp/mindy-ascent-900by249-11af66.jpg" media="(max-width: 1200)">
+    <source srcset="/on/images/resp/mindy-ascent-1920by531-11af66.jpg" media="(min-width: 1201px)">
+    <source srcset="/on/images/resp/mindy-ascent-900by249-11af66.jpg">
+    <img srcset="/on/images/resp/mindy-ascent-900by249-11af66.jpg" class="gallery-pict" itemprop="image" alt="Mindy hurrying towards the main peak, leaving me behind" >
+  </picture>
 
-There are so many beautiful places tucked into this area that many famous films have been shot here. Pivitol scenes from Crouching Tiger Hidden Dragon were filmed just around the corner from Mindy&#8217;s impromtu seat.
-</p>
+    
+    <p class="photo-words">
+    Mindy practised kungfu from childhood and this has given her an almost terrifying approach to hiking. She invariably heads up whatever slope the mountain throws out at a trot. When I suggested she match my exhausted plod, she tried for a moment, then told me she couldn&#8217;t go that slow.<br>
+    
+    This shot is perhaps 1/3 of the way up the main trail, still early in the day. To finish the hike before dark, you have to start early. Very early. Just past the stone wall is a rest area complete with stalls selling water, cucumbers, and trinkets. Yes, raw cucumber is a popular Chinese snack.<br>
+    
+    The walls ahead may have started life as part of an ancient Taoist site&mdash;the once dotted the mountain. Yellow Mountain was where the Yellow Emperor learned the Tao. He was the legendary leader who first united China as much as seven thousand years ago.
+    </p><br>
+</div>
+</div>
 
-
-<p><br></p>
 
     </div>
   </div>
@@ -122,5 +156,10 @@ There are so many beautiful places tucked into this area that many famous films 
 
 
 
+<!-- include picturefill to polyfill picture element -->
+<script src="/on/javascripts/picturePolyfill.min.js"></script>
+<!-- include Cycle2 -->
+  <script src="/on/javascripts/jquery.cycle2.min.js"></script>
+<script src="/on/javascripts/jquery.cycle2.swipe.min.js"></script>
 </body>
 </html>
