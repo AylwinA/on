@@ -3,7 +3,7 @@
 // note: there is NO case here when text is too short!!!
 
 function pageSet(pageht){
-    var pages = 0, 
+    var pages = 1, 
         pagesID = 0, 
         rawID = 'z1',
         pagetxt = 0,
@@ -14,15 +14,17 @@ function pageSet(pageht){
         textmove = 0, 
         textkeep = 0,
         targetOld = 0,
-        targetNew= document.getElementById('z2');
+        targetNew = document.getElementById('z2');
 //making sure pagesID scrollHeight works.... is just number, no 'px'
 //    var testWhile = document.getElementById(rawID).scrollHeight; 
     
 // set the class of text containers to window height    
     $( ".excerpt-words" ).css( "max-height", pageht + "px" );
-while ( targetNew.innerHTML !== '' && targetNew.innerHTML !== null ) {
+    
+// continue until there is nothing in next target to move and next target exists
+while ( (targetNew.innerHTML !== '') && (targetNew) ) {
 // repeat while content height of contents of article element is greater than element
-        pages++;
+
         pagesID = "#z" + pages; 
         rawID = "z" + pages;
         pagetxt = $(pagesID).text();
@@ -34,7 +36,7 @@ while ( targetNew.innerHTML !== '' && targetNew.innerHTML !== null ) {
     
 // check to see if there are is an extra article element, make one if not       
     if ( !targetNew ) {
-         $( pagesID ).after( "<article class='excerpt-words' style='max-height;'" + pageht + "px;' id='" + rawNextID + "'></article>");}  
+         $( pagesID ).after( "<article class='excerpt-words' style='max-height;" + pageht + "px;' id='" + rawNextID + "'></article>");}  
     
 // do the actual shifting of text
     while ( targetOld.scrollHeight > pageht ) {
@@ -46,18 +48,19 @@ while ( targetNew.innerHTML !== '' && targetNew.innerHTML !== null ) {
 // write back smaller file to old container
         targetOld.innerHTML = textkeep;
 
-// move extra text to lower article
+// move extra text to newer container
         targetNew.innerHTML = textmove + targetNew.innerHTML;
     }
+        pages++;
   }
 }
        
-// on window resize adjust 'page' size
+// window resize adjust 'page' size, flow text
 $( window ).resize(function() {
     pageSet($( window ).height());
 });
 
-// document ready run function set page
+// document ready adust 'page' size, flow text
 $( document ).ready( function() {
     pageSet($( window ).height());
 });
