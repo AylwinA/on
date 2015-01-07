@@ -1,9 +1,10 @@
-// function to set text in article elements to just fill each page and with page number in :after
+// function to set text in div elements to just fill each 'page' and with 'page' number in :after
 
 // note: there is NO case here when text is too short!!!
 
 function pageSet(pageht){
     var pages = 1, 
+        cnt = 0,
         pagesID = 0, 
         rawID = 'z1',
         pagetxt = 0,
@@ -14,6 +15,7 @@ function pageSet(pageht){
         textmove = 0, 
         textkeep = 0,
         targetOld = 0,
+        targetDivs = $('.excerpt-words').length + 1,
         targetNew = document.getElementById('z2');
 //making sure pagesID scrollHeight works.... is just number, no 'px'
 //    var testWhile = document.getElementById(rawID).scrollHeight; 
@@ -21,8 +23,18 @@ function pageSet(pageht){
 // set the class of text containers to window height    
     $( ".excerpt-words" ).css( "max-height", pageht + "px" );
     
-// continue until there is nothing in next target to move and next target exists
-while ( (targetNew.innerHTML !== '') && (targetNew) ) {
+// markdown won't apply paragraphs within html block elements, so need to wrap <p>s
+    for (cnt = 1; cnt < targetDivs; cnt++) {
+    pagesID = "z" + cnt; 
+        var textID = document.getElementById(pagesID);
+    pagetxt = textID.innerHTML;    
+    pagetxt = '<p>' + pagetxt + '</p>';
+    pagetxt = pagetxt.replace(/\r\n\r\n/g, "</p> <p>").replace(/\n\n/g, "</p> <p>");
+    document.getElementById(pagesID).innerHTML = pagetxt;
+}
+    
+// continue until there is nothing in next target to move
+while  (targetNew.innerHTML !== '') {
 // repeat while content height of contents of article element is greater than element
 
         pagesID = "#z" + pages; 
@@ -34,9 +46,11 @@ while ( (targetNew.innerHTML !== '') && (targetNew) ) {
         targetOld = document.getElementById(rawID);
         targetNew = document.getElementById(rawNextID);
     
+
+    
 // check to see if there are is an extra article element, make one if not       
     if ( !targetNew ) {
-         $( pagesID ).after( "<article class='excerpt-words' style='max-height;" + pageht + "px;' id='" + rawNextID + "'></article>");}  
+         $( pagesID ).after( "<div class='excerpt-words' id='" + rawNextID + "'></div>");}  
     
 // do the actual shifting of text
     while ( targetOld.scrollHeight > pageht ) {
