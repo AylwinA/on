@@ -97,4 +97,23 @@ $( window ).resize(function() {
 // document ready adust 'page' size, flow text
 $( document ).ready( function() {
     pageSet($( window ).height());
+    var cbwidth = 900,
+        cbleft = ($("body").width() - cbwidth)/2  + 'px';
+    	$.colorbox({
+            inline:true,
+            width:cbwidth + "px",
+            initialWidth:cbwidth + "px", 
+            open:true,
+            href:"#z0",
+            height:"400px",
+            initialHeight:"400px",
+            scrolling:false,
+            opacity:0.5,
+            left:cbleft,
+            onClosed:function(){
+        // hide div#z0 which was just in popup
+                document.getElementById("z0").style.display = 'none';
+        }
+    });
 });
+
