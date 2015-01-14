@@ -30,7 +30,8 @@
   
     <script src="/on/javascripts/jquery.simplePagination.js" type="text/javascript"></script>
     <script src="/on/javascripts/jquery.colorbox-min.js"></script>
-    <script src="/on/javascripts/excerpts2.js"></script>
+    <script src="/on/javascripts/jquery.columnizer.min.js"></script>
+    <script src="/on/javascripts/excerpts3.js"></script>
     <link href="/on/stylesheets/simplePagination.css" media="screen, projection" rel="stylesheet" type="text/css">
     <link href="/on/stylesheets/colorbox.css" media="screen, projection" rel="stylesheet" type="text/css">
   
@@ -54,7 +55,7 @@
 
 </head>
 
-<body   class="no-sidebar"  >
+<body   class="no-sidebar excerpt"  >
     
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/on/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
@@ -75,8 +76,16 @@
       <div>
 <article role="article" id="art-id">
 
-  <div class="excerpt-intro inline" id="z0">
-<h1>What this is:</h1> <em> A chapter from a book exploring esoteric China. I spent months writing and researching, then abandoned the results to Amazon and Fate. Unfortunately neither did my marketing for me.</p>
+  <div class="page_template">  
+	<div class='header'>Travels in the Land of Dragons<hr></div>  
+	<div class='content'></div>  
+	<div class='footer'><hr><span>Page: </span>Chapter One</div>  
+</div>
+
+<div id="gallery"></div>
+
+<div class="excerpt-intro inline" id="z0">
+<h1>What this is:</h1> <em> A chapter from a book exploring esoteric China. I devoted months to writing and researching it, then abandoned the results to Amazon and Fate. Unfortunately neither did my marketing for me.</p>
 
 <p>My friends suggested I put a little effort into promotion. This is my advertising campaign. Are you impressed yet?</p>
 
@@ -84,23 +93,18 @@
 
 <p>Mindy claims the story will only get read if I emphasize miracles. I didn&#8217;t believe her and simplified things. She turned out to be right, so this time I&#8217;ll cut loose and see if <strong>that</strong> sparks any interest.</p>
 
-<p>If you think some aspect of the book needs work, feel free to leave your suggestions in the comments section at the bottom of the page.</p></em>
+<p>If you think some aspect of the book needs work, feel free to leave your suggestions in the comments section&mdash;that will eventually return to the bottom of the page.</p></em>
 </div>
 
-<h2 class="centered">Learning to Let Go</h2>
+<div class="excerpt-hidden" id="ex-hidden">Stories about spirituality used to confuse me. While scorning their impracticality, I couldn&#8217;t help wondering what was really going on. Then in my teens a friend learned to meditate. It drove me crazy not knowing what he was doing. When he finally talked me into learning, I immediately knew I&#8217;d found something important. Even so, everyone kept insisting I didn&#8217;t need to do anything differently, I should just continue as I was. Not having a clue about what changes I could make, doing nothing seemed sensible.
 
-
-
-
-<div class="excerpt-hidden" id="ex-hidden">Stories about spirituality used to confuse me. While scorning their impracticality, I couldn&#8217;t help wondering what was really going on. Then in my teens a friend learned to meditate. It drove me crazy not knowing what he was doing. When I finally got up my courage and learned, I immediately knew I&#8217;d found something important. Even so, everyone kept insisting I didn&#8217;t need to do anything differently, I should just continue as I was. Not knowing what changes I could make, doing nothing seemed sensible.
-
-Few can add a little meditation to whatever they do and manage to stick with it for the rest of their lives. Most gradually start skipping meditations until one day they discover they have quit. That would have been me, except one day I felt particularly humiliated by yet another messed up relationship. I decided a full on spiritual path was my only chance to overcome my faults. I could ease off when I&#8217;d learned to live in harmony with all of nature. Since I&#8217;d been an athlete I figured I had a huge advantage&mdash;such a simple goal should only take me a year or two. It turned out significantly more difficult and time consuming than I&#8217;d hoped.
+Few can add a little meditation to whatever they do and manage to stick with it for more than a few months. Most gradually start skipping meditations until one day they discover they have quit. That would have been me, except I managed to get humiliated by yet another messed up relationship. It seemed logical at the time&mdash;a full on spiritual path was my only chance to overcome my faults. I could ease off once I&#8217;d learned to live in harmony with all of nature. Since I&#8217;d been an athlete I figured I had a huge advantage&mdash;such a simple goal should only take me a year or two. It turned out significantly more difficult and time consuming than I&#8217;d hoped.
 
 Years of adventures led me ever deeper into meditation, into being an increasingly skinny vegetarian, and eventually to the mountains of India. My experiences there were amazing, shattering deep misconceptions I&#8217;d wasted time and energy on for years. Unfortunately my focus on purification went overboard. I forgot that the ever present amoebas and their fellow parasites were challenging enough. I ended up reduced to a shadow of my former health. At that point common sense finally returned and I fled to a healthier place. Considering the state of rural India, that could have been almost anywhere.
 
 My refuge ended up Northern China, where I began teaching English at a University. I had no qualifications other than being able to speak English, knew no one, and couldn&#8217;t speak a word of Mandarin. Within hours I realized I was in a spiritual desert. An extremely clean one, compared to India, but none the less a desert. One of the key supports for a spiritual life is living among like minded people. They were going to be hard to find.
 
-After a few weeks I was delighted to discover two of my students had broken any number of party rules by learning to meditate. One I immediately wanted to know better. She was in her twenties, with a round cheerful face. The first time we hung out, she carefully explained that she had a long term boyfriend, but he was afraid of commitment. Then she sighed and told me she was thinking of making changes in her life. When she started calling me up late at night from the ‘English’ bar I began to suspect what those changes were.
+After a few weeks I was delighted to discover two of my students had broken any number of party rules by learning to meditate. One I immediately wanted to know better. She was in her twenties, with a round face and cheerful disposition. The first time we hung out, she carefully explained that she had a long term boyfriend, but he was afraid of commitment. Then she sighed and told me she was thinking of making changes in her life. When she started calling me up late at night from the ‘English’ bar I began to suspect what those changes were.
 
 She also dawdled when she walked, which drives me crazy. I&#8217;m no longer ridiculously athletic, but I still prefer getting where I&#8217;m going, not floating around in a cloud of ambivalent niceness. She also lacked deep experiences in meditation, her father was a virtual monk with a bad temper and no English, and her master could only visit China illegally. All this discouraged me from relying on her for spiritual support. However my suspicion that she wanted a foreign husband, almost any foreign husband, deterred me the most.
 
@@ -108,17 +112,19 @@ The other meditator was Mindy. Thirty something and very good looking, she had t
 
 Unfortunately she was a student, so I couldn&#8217;t completely ignore her. Besides, once I became aware of my other meditator&#8217;s marital ambitions, Mindy became my last bulwark against rampant materialism. So I let her talk me into hanging out with her, and that somehow led to a trip that I knew from the start would be a disaster.
 
-She insisted a distant, peaceful temple was the perfect place for me to enjoy deep meditation. The trouble was, the trip included two days of travel during golden week. This is a phenomenon unique to China and unimaginable to the rest of the world. Almost everyone in China gets that week off. Over 90 million of them insist on being part of a mass migration by train to visit family and friends. These aren&#8217;t short haul commuter trips. Most passengers travel many hours, and in the worst cases endure it for a couple of days.
+She insisted a distant, peaceful temple was the perfect place for me to enjoy deep meditation. The trouble was, the trip included two days of travel during golden week. This is a phenomenon unique to China and unimaginable to the rest of the world. Almost everyone in China gets that week off. Over 90 million of them insist on being part of a mass migration by train to visit family and friends. Buses are used as well, but everyone in the office agreed that during Golden Week most were unreliable and overloaded. Besides, they would require too many transfers&mdash;where I would probably get lost.
+
+So the train was my only real option. And this wasn&#8217;t some short haul commuter trip. Most passengers travel for many hours, and in the worst cases, live on the train for a couple of days.
 
 To prevent a black market in tickets, they are only made available a few days before the celebration begins. Obviously there is no possible way everyone can get seats. As a concession to the millions who would miss out, the trains offer standing tickets. These are only for the cheaper cars, the ones with hard seats, ensuring they are jammed full. Many of those cars are ancient, briefly resuscitated for service during these days of intense travel. Many standees are peasants, laboring in the city the rest of the year and taking this heaven sent opportunity to get back home to see their children. They often travel in groups, dragging behind them piles of cheap luggage, supplies of food, and folding stools to sit on in the aisles. They are ready for the adventure in ways a naive westerner could never be.
 
-Mindy was proud of having somehow gotten three of us on one of those trains. She didn&#8217;t get us luxurious but expensive soft beds, the last places to sell out on a train. We weren&#8217;t in the sturdy but tightly packed hard bunks, or even an up market car with reclining soft seats. No, we were on a hard, unforgiving bench, on a slow train, surrounded by stoically standing passengers and their luggage, enduring a wall of bodies unavoidably encroaching on our space.
+Mindy was proud of having somehow gotten tickets for three of us on one of those trains. She didn&#8217;t get us luxurious but expensive soft beds, the last places to sell out on a train. We weren&#8217;t enduring the sturdy but tightly packed hard bunks, or even an up market car with reclining soft seats. No, we were on a hard, unforgiving bench, on a slow train, surrounded by stoically standing passengers and their luggage, enduring a wall of bodies unavoidably encroaching on our space.
 
 This was several years ago, so it is unfair to complain about the train not being fast. Back then high speed trains ran only in the south, although speed is a relative thing. China&#8217;s slow trains are usually faster than the best trains in North America, and in China they trundle directly, and often overnight, to every city centre&mdash;and everyone trusts them as the safest way to travel.
 
 Regardless of the relative quality of the train, I spent the night jammed in a hard bench seat, Mindy asleep on my shoulder and her nine year old daughter asleep in my lap. I was stuck neither sleeping nor able to meditate. The one thing I was able to do was get grumpy. By the time the train stopped I was definitely not spreading joy. Then we had to hire a taxi to get to the temple. After half an hour jolting through the countryside Mindy leapt out and started chatting for what seemed like an hour with the woman running the farmhouse hostel at the gates of the temple.
 
-I never get headaches, but I had a cracking one by the time Mindy was finished, and as a result the people around me were no longer enjoying life much either. Mindy ordered me to rest in the farmhouse and went off to manage our accommodations.
+I never get headaches, but I had a cracking one by the time Mindy was finished. As a result the people around me were no longer enjoying life much either. Mindy ordered me to rest in the farmhouse and went off to manage our accommodations.
 
 I grumbled at everything, including what they told me was the bed&mdash;a massive brick slab that ran all the way down one side of the open plan farmhouse, forming a communal resting place that could hold a dozen sleepers stacked end on end, or a lot more if you didn&#8217;t mind crowding in a bit. There was no hope there of quiet, private meditation time. I wasn&#8217;t sure if its unyielding surface offered much hope for sleep, either. I lay down on a layer of thin quilts prepared to suffer.
 
@@ -126,39 +132,39 @@ When Mindy returned I was still grumpy, but at least slightly rested. She finall
 
 These hardest of possible beds are kàngs, which for centuries kept peasants and nobles alike warm in the winter and cool in the summer. Unfortunately there is a tradition in India that yogis never have fire inside their dwelling. I&#8217;m not a yogi, but I can&#8217;t help trying. I let the kàng&#8217;s fire burn out and enjoyed fresher air&mdash;but a cold and very very hard bed.
 
-Just in case the bed wasn&#8217;t challenge enough, the place was also missing any of the traditional parts of a washroom. To compound the problem, the trail visitors used to hike up the mountain passed directly above the hut, giving them a very nice view of everything below. This made outdoor showers and bathroom breaks more challenging than they needed to be. More than once I heard voices floating on the wind as I poured water over myself. I inevitably found myself making a mad and very wet dash back to the shed. It wasn&#8217;t much good for meditation either. By the time I&#8217;d start sliding into deeper experiences, Mindy would turn up at my door insisting it was time to come out for a walk on the mountain.
+Just in case the bed wasn&#8217;t challenge enough, the place was also missing any of the traditional parts of a washroom. To compound the problem, the trail for hikes up the mountain passed directly above the hut, giving them a very nice view of everything below. This made outdoor showers and bathroom breaks more challenging than they needed to be. More than once I heard voices floating on the wind as I poured water over myself and had to make a mad and very wet dash back to the shed. It wasn&#8217;t much good for meditation either. By the time I&#8217;d start sliding into deeper experiences, Mindy would turn up at my door insisting it was time to come out for a walk on the mountain.
 
-The women who owned the temple were a also bit unusual. The junior partner had a unique method for talking with spirits. She would stand at attention, then with no warning begin making strange noises deep in her throat. Her friend would wait next to her, head tilted as if listening intently, then begin translating the noises. In this way they told me that they had seen me coming days earlier, and they were very interested in what I had to say. I resisted telling them I found them a little strange. I just agreed it was a very nice place, especially a group of four enormous old pines just across the road.
+The women who owned the temple were a also bit unusual. The junior partner had a unique method for talking with spirits. She would stand at attention, then with no warning begin making strange noises deep in her throat. Her friend would wait next to her, head tilted as if listening intently, then begin translating the noises. In this way they told me that they had seen me coming days earlier, and they were very interested in what I had to say. I resisted telling them I found them a little weird. I just agreed it was a very nice place, especially a group of four enormous old pines just across the road.
 
-It turned out that there had been well known temples here. Back in the best forgotten days of the cultural revolution, fanatical youths came through, driving off the last of the monks and smashing a thousand years of history. One young stud even took an axe to the roots of the largest tree because the grove was supposed to be holy. He only struck it once&mdash;he was so shocked by the results that he immediately fled.
+It turned out that there had been temples here. Back in the best forgotten days of the cultural revolution, fanatical youths came through, driving off the last of the monks and smashing a thousand years of history. One young stud even took an axe to the roots of the largest tree because the grove was supposed to be holy. He only struck it once&mdash;he was so shocked by the results that he immediately fled.
 
-I dragged Mindy over to check out the trees but she was distracted. I put my hands on the biggest trunk and invited it to share energies. A big healthy tree can share a lot of energy. Mindy continued to be disinterested. It wasn&#8217;t until much later that I learned why this was her standard response to my asking questions&mdash;and I&#8217;m always asking questions. She would stare off into space looking bored, leaving me convinced she was ignoring me. Apparently she was busy checking with her spirits for an answer&mdash;usually to some question I&#8217;d already given up on.
+I dragged Mindy over to check out the trees but she was distracted. I put my hands on the biggest trunk and invited it to share energies. A big healthy tree can share a lot of energy. Mindy continued to be disinterested. It wasn&#8217;t until much later that I learned this was her standard response to my asking questions&mdash;and I&#8217;m always asking questions. She would stare off into space looking bored, leaving me convinced she was ignoring me. Apparently she was busy checking with her spirits for an answer&mdash;usually to some question I&#8217;d already given up on.
 
 To listen to me she had to disengage with them, making them unhappy with her. This naturally led to her being unhappy with me. My first hint that there was a problem was when she started scolding me for asking too many questions. Having no clue what was causing this, I figured I&#8217;d better keep quiet. The logical male reaction, right?
 
-Rather than risk talking and to prove that something interesting was going on, I left one hand on the tree and put the other on her back I figured she&#8217;d have to notice the energy. After a while she  became aware something was happening. To my surprise she wasn&#8217;t exactly pleased. After she got home it took several visits to her master to fix her energy flow. 
+Rather than risk talking, and to prove that something interesting was going on, I left one hand on the tree and put the other on her back. I figured she&#8217;d have to notice the energy. After a while she  became aware something was happening and sidled around to another side of the tree, well away from me. I learned much later that I&#8217;d just thrown off her energy flow, something it took several visits to her master to fix. 
 
-For the next few days we explored the effects of different. About all we learned was that sick ones were dull and weak. Not that it should surprise anyone. Also, as the sun set, the trees began falling asleep, so nothing much would happen then. Eventually we got tired of trees, and while wandering our way across the mountain stumbled into an area where the bones of the mountain were exposed.
+For the next few days we explored trees. About all we learned was that sick ones were dull and weak. Not that it should surprise anyone. Also, as the sun sets, trees begin falling asleep. We soon got tired of trees and returned to scrambling around the mountain side. One afternoon we stumbled into an area where the grey bones of the mountain lay exposed.
 
 We lay down on gently sloping slabs of granite and absorbed the sun. It was delightful. Then I realized that from this spot Mindy ought to be able to contact the spirit of the mountain. Yes, every physically distinct entity (including the organs in your body) has a spirit. Most of them are too small to matter. I figured talking to the mountain itself would be a nice change from little trees.
 
 It took Mindy a long time to contact this fellow. His thinking was so slow that time didn&#8217;t really matter to him, and our questions were far beneath his dignity. Monks had lived there for maybe a thousand years, yet he claimed to have never noticed their fleeting presence.
 
-Duly chastened, we headed back for lunch. We ate our meals in a large and utilitarian shed, filled with rows and rows of long narrow tables. It was a formal affair, starting each time with Buddhist chants. Once we were spiritually prepared, the servers walked around pouring vegetable soup into our bowls, while others offering us steamed buns to bulk up a bit.
+Duly chastened, we headed back for lunch. We ate meals in a large and utilitarian building, filled with rows and rows of long narrow tables, and not much talk. Food was a formal affair, starting with Buddhist chants. Once we were spiritually prepared, servers walked around ladling vegetable soup into our bowls, while others offering us steamed buns to bulk the meal up a bit. The only real flavor was from hot pickled vegetables that were served as a side dish and looked a lot like shredded cabbage. The silence wasn&#8217;t complete as everyone constantly shifted in their seats, uncomfortable with not being allowed to talk.
 
-One challenge of being in a temple is that waste is considered evil. No matter how the soup tastes (and it was always very bland) you have to eat every scrap in front of you. I&#8217;m not particularly fond of potato lump soup, their most common offering. Fortunately I managed to sneak my excess of potatoes into Mindy&#8217;s bowl while she busily slid what she didn&#8217;t like into mine.
+One challenge of being in a temple is that waste is considered evil. No matter how the soup tasted (and it was always bland) you had to eat every scrap in front of you. I&#8217;m not particularly fond of potato lump soup, their most common offering. Fortunately I managed to sneak my excess of potatoes into Mindy&#8217;s bowl while she furtively slid what she didn&#8217;t like into mine.
 
-The staff included a cream colored cat they swore was the reincarnation of one of the old monks. It strolled down to the gate to meet every new arrival, then escorted them back to the office. They also had a stream of visitors anxious to learn whatever they could. One had recently attracted a spirit but couldn&#8217;t get it to do anything useful. After discovering Mindy managed a whole slew of them he pestered her to teach him. Unfortunately he didn&#8217;t offer any money. This is a terrible offence among those who work with spirits.
+The staff included a cream colored cat they swore was the reincarnation of one of the old monks. It strolled down to the gate to meet every new arrival, then escorted them back to the office. They also had a stream of visitors anxious to learn whatever they could. One had recently attracted a spirit but couldn&#8217;t get it to do anything useful. After discovering Mindy managed a whole slew of them he pestered her for instructions. Unfortunately he didn&#8217;t offer money. This is a terrible offence among those who work with spirits.
 
-Small spirits in China are often called foxes, and can be jealous creatures as well as dangerously unreliable. Their sources of information are small, but to impress the person they&#8217;ve attached themselves to, those who aren&#8217;t completely selfish delve into whatever records they can. Spirits incur debts doing this, one the person asking the questions must pay. One way or another. If it doesn&#8217;t come out through money, it will end up being paid through pain and suffering.
+Small spirits in China are often called foxes, and can be jealous creatures as well as dangerously unreliable. Their sources of information are small, but to impress the person they&#8217;ve attached themselves to, spirits who aren&#8217;t completely selfish delve into whatever records they can. Spirits incur debts doing this, one the person asking the spirit the questions must pay. One way or another. If it doesn&#8217;t come out through money, it will end up being paid through pain and suffering.
 
 This is the heart of the conflict between Buddhists and Animists. Buddhist Pusas are exalted beings with deep knowledge and connections, and no interest in material things. All they care about is the sincerity of those who petition for help. Unfortunately what &#8216;help&#8217; they give can make the petitioner&#8217;s material desires impossible to achieve. It turns out Pusas know better than we do what is good for us.
 
-Most animists don&#8217;t get attention from a Pusa and wouldn&#8217;t like it if they did. Mindy is among the rare few interested in all levels of spirits. It was one reason she wanted me around&mdash;she discovered higher spirits would talk to her when I was there. It wasn&#8217;t my wit they liked, just the inner silence that is a side effect of decades of long meditation.
+Most animists don&#8217;t get attention from a Pusa and wouldn&#8217;t like it if they did. Mindy is among the rare few interested in all levels of spirits. It was one reason she wanted me around&mdash;she found higher spirits would talk to her when I was there. It wasn&#8217;t my wit they liked, just the inner silence that came as a side effect of decades of long meditation.
 
-The foxes of the animists are local nature spirits, of no real significance. These weak spirits are about as high as most animists get. Foxes care deeply about what is in it for themselves&mdash;those who deal with them often think the same way. It isn&#8217;t hard to understand the scorn some Buddhists feel for animists.
+The foxes of the animists are local nature spirits, of no real significance. These weak spirits are about as high as most animists get. Foxes care deeply about what is in it for themselves&mdash;those who deal with them often think the same way. It isn&#8217;t hard to understand the scorn many Buddhists feel for animists.
 
-Mindy never did help the guy deal with his foxes, growing increasingly irritated with him as the week passed. I ended up the only one making suggestions. They probably weren&#8217;t appreciated&mdash;my position on spirits is that you are better off ignoring them. For most of us, the state of mind that allows us to experience spirits is so close to the dream space that nothing recalled afterwards is at all reliable. Even if you could recall everything word for word, spirits can have a unique view of &#8216;truth&#8217; that fits badly with ours. This is probably why the Vedas counsel us to &#8216;avoid disincarnate teachers.&#8217;
+Mindy never did help the guy deal with his foxes, growing increasingly irritated with him as the week passed. I avoided taking a public position&mdash;after all, these were people whose lives were based on dealing with spirits. They wouldn&#8217;t have appreciated my position on spirits: fun to meet, but you are better off ignoring their advice. For most of us, the state of mind that allows us to experience spirits is so close to the dream space that nothing recalled afterwards is at all reliable. Even if you could recall everything word for word, spirits can have a unique view of &#8216;truth&#8217; that fits badly with ours. This is probably why the Vedic tradition of India warns us to &#8216;avoid disincarnate teachers.&#8217;
 
 A couple of days before we left I discovered the region was suffering from a serious drought. Since the women running the place were animists they decided to have a ceremony to encourage their foxes to bring rain. They did it in a tiny temple they had built just far enough away from the Buddhist temples to keep purists happy.
 
@@ -174,11 +180,11 @@ You may be thinking that this is a unique skill. Not so. Back in feudal times, t
 
 Among the terrible tasks he was set as penance, he had to bring a storm to destroy the crops of a village that had insulted his teacher. The woman whose house he was staying in saw wild weather coming and ran to Milarepa, begging him not to destroy her livelihood. Milarepa had her draw her plot of land in the dirt, then put his hand over the map. One small corner of her field was not covered by his hand&mdash;the storm destroyed the crops everywhere else, sparing only what Milarepa&#8217;s hand covered.
 
-Although I have nothing like Milarepa&#8217;s skills, one afternoon while in Indonesia I had the idea that I could make money by offering to bring rain to the dessicated kingdoms of the middle east. I began exploring their weather patterns and discovered it really wouldn&#8217;t take much to bring rain. As I was checking things out I realized I couldn&#8217;t just look&mdash;my attention was already making changes. Startled, I quickly ended the experiment. A week or so later my brother who was working there reported that rain was falling for the first time in years.
+Although I have nothing like Milarepa&#8217;s skills, one afternoon while in Indonesia I had the idea that I could make money by offering to bring rain to the dessicated kingdoms of the middle east. I began exploring their weather patterns and discovered it really wouldn&#8217;t take much to bring rain. As I was checking things out I realized I couldn&#8217;t just look&mdash;my attention was already making changes. Startled, I quickly ended the experiment. A week or so later, my brother who worked there reported that rain was falling for the first time in years.
 
-Meddling with weather is fun, even if it is stupid. Disregarding the faint twinge of common sense that told me to leave things alone, I settled into the silence of my mountain hut, and once there searched around for rain to invite. There was nothing to the east, where I expected it to be lurking. There was nothing south either. I started getting discouraged when I also found nothing west. Finally I found a trace of rain to the north and invited it to come down. It complained that it was busy. I waited until it relented, then got back to the quiet meditation I was supposed to be doing.
+Meddling with weather is fun, even if it is stupid. Disregarding the faint twinge of common sense that told me to leave things alone, I settled into the silence of my mountain hut, and once comfortable searched around for rain to invite. There was nothing to the east, where I expected it to be lurking. There was nothing south either. I started getting discouraged when I also found nothing west. Finally I found a trace of rain to the north and invited it to come down. It complained that it was busy. I waited until it relented, then got back to the quiet meditation I was supposed to be doing.
 
-Mindy, as usual, arrived all to soon to drag me off to lunch. She immediately passed my story on to the women of the temple. It turned out north was where they expected rain to come from. Apparently they import their clouds from Siberia. In my experience weather takes three days to arrive unless it is really stuck, when it can take a week or more to shake things loose. We only had high cloud cover as we left, but from the reports I got, it was still drizzling weeks later. I think maybe having both of us ask was overdoing it a bit&#8230;.
+Mindy, as usual, arrived all too soon to drag me off to lunch. She immediately passed my story on to the women of the temple. It turned out north was where they expected rain to come from. Apparently they import their clouds from Siberia. In my experience weather takes three days to arrive unless it is really stuck, when it can take a week or more to shake things loose. We only had high cloud cover as we left, but from the reports I got, it was still drizzling weeks later. I think maybe having both of us ask was overdoing it a bit&#8230;.
 
 Staying there was by donation, and Mindy told me how much she thought they deserved and took care of giving it to them. As we were leaving their office manager rushed out to scold me for being a cheapskate. Apparently some businessman had stayed there just before me and they were hoping for similar munificence. We climbed into the cab to start the trip back surrounded by good wishes from everyone but the manager.
 
@@ -236,7 +242,7 @@ As if that wasn’t bad enough, I was travelling with Mindy. And while Mindy lik
 
 Mindy had ended up returning on the same train, but with a standing ticket. She was off in another coach, heading to visit her cousin. Her daughter had gone to visit that cousin a few days earlier, but would miss school unless she travelled back that night. I suspect her cousin was also told to get that ticket a little too late, so only another standing ticket was available.
 
-Long past the last possible minute to arrange things Mindy let me know I was nominated as chaperone for a child who would be standing by herself in the aisles. Which you will probably agree is not something you ask a nine year old to do on an overnight trip.
+Long past the last possible minute to arrange things, Mindy let me know I was nominated as chaperone for a child who would otherwise be standing by herself in the aisles. Which you will probably agree is not something you ask a nine year old to do on an overnight train.
 
 Mindy sent a text to her daughter, ordering her to run up to me on the platform and display such extravagant affection that everyone would assume I was her long lost father. Then she sent a text to my boss’s niece, Xiǎo Wáng, who I&#8217;d had the good luck to meet in the waiting room before boarding. I know, the odds for that happening are awfully small, but this is how my life works. She had been visiting her husbands family, and they live an hour the other way from the temple.
 
@@ -247,9 +253,7 @@ After an hour of this the conductor got her boss to allow a few broken rules. Mi
 
 Knowing they would think I was crazy, I decided it was time to admit to my boss I was sneaking away early for a temple tour. I found myself explaining that I planned to get Guānyīn Púsà’s blessings for my Mother. She was getting a second hip operation, you see, after her first implant had broken up. Nobody wanted the operation to go wrong. While the thought of getting some blessings for her had been there, it wasn&#8217;t one I wanted to admit to. When I did, to my surprise the tradition of respect for parents overcame modern insistence on practicality.
 
-Having survived that awkward moment, I had to explain to Xiǎo Wáng about Mindy; she was there because I needed a real Buddhist along with me. Well, to be honest, I needed someone who spoke Chinese. I barely spoke enough to buy food at street stalls, where you can point at what you want. And solo travel is not simple in China. This was obvious to everyone: no Mindy, no China tour.  Xiǎo Wáng&#8217;s glower made it clear she still thought I was nuts, but at least she didn’t scold me. She just spent the afternoon quietly sniffing whenever she saw me. There was no reaction from anyone else in the office either, leaving me wondering if they&#8217;d given up on me.
-
-</div>
+Having survived that awkward moment, I had to explain to Xiǎo Wáng about Mindy; she was there because I needed a real Buddhist along with me. Well, to be honest, I needed someone who spoke Chinese. I barely spoke enough to buy food at street stalls, where you can point at what you want. And solo travel is not simple in China. This was obvious to everyone: no Mindy, no China tour.  Xiǎo Wáng&#8217;s glower made it clear she still thought I was nuts, but at least she didn’t scold me. She just spent the afternoon quietly sniffing whenever she saw me. There was no reaction from anyone else in the office either, leaving me wondering if they&#8217;d given up on me.</div>
 
 
 
@@ -258,7 +262,7 @@ Having survived that awkward moment, I had to explain to Xiǎo Wáng about Mindy
   
 </article>
 
-  <section>
+  <section  class="shiftcomments"  >
     <h2>Comments</h2>
     <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
