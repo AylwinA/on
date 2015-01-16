@@ -4,7 +4,7 @@
   <title><![CDATA[A Rambler&rsquo;s Blog]]></title>
   <link href="https://aylwina.github.io/on/atom.xml" rel="self"/>
   <link href="https://aylwina.github.io/on/"/>
-  <updated>2015-01-14T00:24:59-08:00</updated>
+  <updated>2015-01-16T11:30:00-08:00</updated>
   <id>https://aylwina.github.io/on/</id>
   <author>
     <name><![CDATA[Aylwin]]></name>
@@ -28,11 +28,11 @@
 
 <p>From there it became even more interesting. Apparently Google&rsquo;s long tailed search engine (the one that finds answers to peculiarly detailed requests that few care about) managed to find me visitors from the mysterious heartland of Russia. I was very happy, especially as there were several of them, and they returned again and again. After a few days I noticed many never actually stopped to read my pages. I became curious and decided to visit their referring links. There were only a few of them. Imagine my surprise when I found they all led to the same place. Even more interesting, the same URLs on different days led to different places.</p>
 
-<p>I happened to install anti-malware software a few days ago. Imagine my surprise when I went to see where those links lead to today&mdash;they were blocked as dangerous sites. Not the kind of message you want to see.</p>
+<p>I happened to install anti-malware software a few days ago. Imagine my surprise when I went to see where those links lead&mdash;they were now blocked as dangerous sites. Not the kind of message you want to see. The day after I noticed this, my site visits fell to zero. Sadly, I found I preferred phantom visits to a total absence of visits.</p>
 
-<p>How could this be happening, you ask? This is part of the mystery of the analytics of Google. It looks suspiciously like Google inadvertently found me a place in some sort of click-farm. You know, like they have for Facebook, where in order to fool the algorithm that stands guard over the riches paid by advertisers, clever bots &lsquo;like&rsquo; paying and semi-random unpaid pages. This fools weak algorithms and increases the wealth of clever programmers.</p>
+<p>How could such strange data exist, you ask? This is part of the mystery of the analytics of Google. On one hand, perhaps American institutions are so afraid of Russian ones that they automatically blacklist them or otherwise distort their results. Or perhaps Google inadvertently found me a place in some sort of Gulagian click-farm. You know, like they have for Facebook, where in order to fool the algorithms that stand guard over the riches paid by advertisers, clever bots &lsquo;like&rsquo; paying and semi-random unpaid pages. This fools weak algorithms and increases the wealth of clever programmers.</p>
 
-<p>Surely no one has so thoroughly fooled the clever analytics of Google&mdash;unless the programmers at Google figure this is just an edge case. But if this is an edge case that works, you can be sure there will be a lot more promotion of sites by these kinds of fake links. On one day the links all pointed to a site by Aliexpress, which is Alibaba&rsquo;s cross between Amazon and Ebay. It has a huge presence in Russia, and I&rsquo;m beginning to suspect I&rsquo;ve found one of the tools it used to quickly built up such a dominant position&hellip;.</p>
+<p>Surely no one has so thoroughly fooled the clever analytics of Google&mdash;unless the programmers at Google figure this is just an edge case. But if this is an edge case that works, you can be sure there will be a lot more promotion of sites by these kinds of fake links. On one day the links all pointed to a site by Aliexpress, which is Alibaba&rsquo;s cross between Amazon and Ebay. It has a huge presence in Russia, and I&rsquo;m beginning to wonder if I&rsquo;ve found one of the tools it used to quickly built up such a dominant position&hellip;.</p>
 ]]></content>
   </entry>
   
