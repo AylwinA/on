@@ -4,7 +4,7 @@
   <title><![CDATA[A Rambler&rsquo;s Blog]]></title>
   <link href="https://aylwina.github.io/on/atom.xml" rel="self"/>
   <link href="https://aylwina.github.io/on/"/>
-  <updated>2015-01-23T17:43:25-08:00</updated>
+  <updated>2015-01-23T17:55:56-08:00</updated>
   <id>https://aylwina.github.io/on/</id>
   <author>
     <name><![CDATA[Aylwin]]></name>
@@ -18,11 +18,11 @@
     <link href="https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics/"/>
     <updated>2015-01-23T17:01:00-08:00</updated>
     <id>https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics</id>
-    <content type="html"><![CDATA[<p>Google Analytics data for many clients has become infested with fake visits. Since those visits don&rsquo;t affect search rankings, Google is not under pressure to create a tool to block the exploit. If you want to see real data without the haze of spammed results, you&rsquo;ll need to do a little work yourself.</p>
+    <content type="html"><![CDATA[<p>In my previous post I noted that I had a number of unusual Russian visitors to my site. I was puzzled about these visits as they made no sense. Further research showed Google Analytics data for many users is infested with similar fake visits. Since those visits don&rsquo;t affect search rankings or click-through results, Google is not under pressure to block the exploit. If you want to see only &lsquo;real&rsquo; GA visitor data without the haze of spammed results, you&rsquo;ll need to do a little work yourself.</p>
 
-<p>This challenge is the gift of a Russian programmer of great skill and less maturity who developed a GA code generator. He sends huge amounts of data to Google Analytics as if by websites that have the misfortune to share one of his randomly generated GA codes. Since these visits do not actually happen, Google is able to ignore them for their own uses. Unfortunately they obscure real data on Google Analytics, leaving their reports almost useless to website owners.</p>
+<p>It turns out this challenge is the gift of a Russian programmer of great skill and less maturity who developed a GA code generator. He sends huge amounts of data to Google Analytics as if by websites that have the misfortune to share one of his randomly generated GA codes. Since these visits do not actually happen, Google is able to ignore them for their own uses. Unfortunately they obscure real data on Google Analytics, leaving their reports almost useless to website owners.</p>
 
-<p><strong>Mike Sullivan</strong> has outlined in great detail how to block this data from website results. He also explains why suggested edits of <code>.htaccess</code> files cannot block this exploit. How can it when there was never a real visit? His solution is not simple, but it <em>will</em> help you understand how Google Analytics can be adjusted to show only &lsquo;real&rsquo; data. Read it here: <a href="http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/">http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/</a></p>
+<p><strong>Mike Sullivan</strong> has outlined in great detail how to block this data from website results. He also explains why suggested edits of <code>.htaccess</code> files cannot block this exploit. How can they when there was never a real visit? His solution is not simple, but it <em>will</em> help you understand how Google Analytics can be adjusted to show only &lsquo;real&rsquo; data. Read it here: <a href="http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/">http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/</a></p>
 
 <p>It is not clear that the guy causing all this data havoc is getting anything out of this but publicity. On the other hand, publicity may be all he wants&hellip;.</p>
 ]]></content>
