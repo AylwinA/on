@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Friends - A Rambler&rsquo;s Blog</title>
+  <title>Hiding Hacked Results in Google Analytics - A Rambler&rsquo;s Blog</title>
   <meta name="author" content="Aylwin">
 
   
-  <meta name="description" content="Category: friends">
-  
+  <meta name="description" content="Google Analytics data for many clients has become infested with fake visits. Since those visits don&rsquo;t affect search rankings, Google is not &hellip;">
+  <meta name="keywords" content="hulfington GA-hack iloveitaly">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="https://aylwina.github.io/on/blog/categories/friends">
+  <link rel="canonical" href="https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics">
   <link href="/on/favicon.png" rel="icon">
   <link href="/on/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="https://pubsubhubbub.superfeedr.com" rel="hub"/>
@@ -74,36 +74,84 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article" id="art-id">
-
+<article class="hentry" role="article">
+  
   <header>
-    <h2 class="entry-title">Category: Friends</h2>
+    
+      <h2 class="entry-title">Hiding Hacked Results in Google Analytics</h2>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-23T17:01:00-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>5:01 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="https://aylwina.github.io/on">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Google Analytics data for many clients has become infested with fake visits. Since those visits don&rsquo;t affect search rankings, Google is not under pressure to create a tool to block the exploit. If you want to see real data without the haze of spammed results, you&rsquo;ll need to do a little work yourself.</p>
 
-  
-  <h2>2014</h2>
+<p>This challenge is the gift of a Russian programmer of great skill and less maturity who developed a GA code generator. He sends huge amounts of data to Google Analytics as if by websites that have the misfortune to share one of his randomly generated GA codes. Since these visits do not actually happen, Google is able to ignore them for their own uses. Unfortunately they obscure real data on Google Analytics, leaving their reports almost useless to website owners.</p>
 
-<article>
-  
-<h1><a href="/on/blog/2014/11/22/a-failure-to-communicate/">A Failure to Communicate</a></h1>
-<time datetime="2014-11-22T12:29:57-08:00" pubdate><span class='month'>Nov</span> <span class='day'>22</span> <span class='year'>2014</span></time>
+<p><strong>Mike Sullivan</strong> has outlined in great detail how to block this data from website results. He also explains why suggested edits of <code>.htaccess</code> files cannot block this exploit. How can it when there was never a real visit? His solution is not simple, but it <em>will</em> help you understand how Google Analytics can be adjusted to show only &lsquo;real&rsquo; data. Read it here: <a href="http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/">http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/</a></p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/on/blog/categories/autism/'>autism</a>, <a class='category' href='/on/blog/categories/friends/'>friends</a></span>
-</footer>
-
-
-</article>
-
+<p>It is not clear that the guy causing all this data havoc is getting anything out of this but publicity. On the other hand, publicity may be all he wants&hellip;.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Aylwin</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-01-23T17:01:00-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>5:01 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/on/blog/categories/programming/'>programming</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/on/blog/2015/01/02/google-analytics-for-beginners/" title="Previous Post: Google Analytics for Beginners">&laquo; Google Analytics for Beginners</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h2>Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -177,7 +225,10 @@
       var disqus_shortname = 'anofftopicblog';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics/';
+        var disqus_url = 'https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
