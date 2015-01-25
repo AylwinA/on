@@ -4,7 +4,7 @@
   <title><![CDATA[A Rambler&rsquo;s Blog]]></title>
   <link href="https://aylwina.github.io/on/atom.xml" rel="self"/>
   <link href="https://aylwina.github.io/on/"/>
-  <updated>2015-01-24T15:07:04-08:00</updated>
+  <updated>2015-01-24T15:25:04-08:00</updated>
   <id>https://aylwina.github.io/on/</id>
   <author>
     <name><![CDATA[Aylwin]]></name>
@@ -20,7 +20,7 @@
     <id>https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics</id>
     <content type="html"><![CDATA[<p>In my previous post I noted unusual numbers of Russian visitors to my site. It turns out Google Analytics data for many users has become infested with similar fake visits. Since those visits don&rsquo;t affect search rankings or click-through results, Google is not under pressure to block the exploit. If you want to see only &lsquo;real&rsquo; GA visitor data without the haze of spammed results, you&rsquo;ll need to do a little work to hide them yourself.</p>
 
-<p><strong>Mike Sullivan</strong> has outlined in great detail how to block this data from website results. He also explains why suggested edits of <code>.htaccess</code> files cannot block this exploit. How can they when there was never a real visit? His solution is not simple, but it <em>will</em> help you understand how Google Analytics can be adjusted to show only &lsquo;real&rsquo; data. Read it here: <span style="background-color:#CFB6D6">  <a href="http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/">http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/</a></span></p>
+<p><strong>Mike Sullivan</strong> has outlined in great detail how to block this data from website results. He also explains why suggested edits of <code>.htaccess</code> files cannot block this exploit. How can they when there was never a real visit? His solution is not simple, but it <em>will</em> help you understand how Google Analytics can be adjusted to show only &lsquo;real&rsquo; data. <span style="background-color:#CFB6D6"> <a href="http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/">Read Mike&rsquo;s article here.</a> </span></p>
 
 <p>It turns out this challenge is the gift of a Russian programmer of great skill and less maturity who developed a GA code generator. He sends data to Google Analytics as if by websites that have the misfortune to share one of his randomly generated GA codes. Since these visits do not actually happen, Google is able to ignore them for their own uses. Unfortunately they obscure real data on Google Analytics, leaving their reports almost useless to website owners.</p>
 
@@ -47,7 +47,7 @@
 
 <p>I happened to install anti-malware software. Imagine my surprise when afterwards I went to see where those links lead&mdash;they were now blocked as dangerous sites. Not the kind of message you want to see. The day after I noticed this, my site visits fell to zero.</p>
 
-<p>Sadly, I find I prefer phantom visits to an almost total absence of readers. I decided to do more research, hoping to find that these really were visitors, and I was being too suspicious. It took me several weeks to find the answer, so I decided to make a new, more practical post. I also edited out the most embarrassing parts of this one, written while still hoping some part of those visits might be real. Sigh.</p>
+<p>Sadly, I find I prefer phantom visits to an almost total absence of readers. I decided to do more research, hoping to find that these really were visitors, and I was being too suspicious. It took me several weeks to fully understand. Since so much time had passed I decided to make a new, more practical post&mdash;which you can find above. I also edited out the most embarrassing parts of this one, written while still hoping some part of those visits might be real. Sigh.</p>
 ]]></content>
   </entry>
   
