@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programming | A Rambler&rsquo;s Blog]]></title>
   <link href="https://aylwina.github.io/on/blog/categories/programming/atom.xml" rel="self"/>
   <link href="https://aylwina.github.io/on/"/>
-  <updated>2015-01-24T15:25:04-08:00</updated>
+  <updated>2015-01-27T14:29:38-08:00</updated>
   <id>https://aylwina.github.io/on/</id>
   <author>
     <name><![CDATA[Aylwin]]></name>
@@ -18,23 +18,13 @@
     <link href="https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics/"/>
     <updated>2015-01-23T17:01:00-08:00</updated>
     <id>https://aylwina.github.io/on/blog/2015/01/23/hiding-hacked-results-in-google-analytics</id>
-    <content type="html"><![CDATA[<p>In my previous post I noted unusual numbers of Russian visitors to my site. It turns out Google Analytics data for many users has become infested with similar fake visits. Since those visits don&rsquo;t affect search rankings or click-through results, Google is not under pressure to block the exploit. If you want to see only &lsquo;real&rsquo; GA visitor data without the haze of spammed results, you&rsquo;ll need to do a little work to hide them yourself.</p>
+    <content type="html"><![CDATA[<p>In my previous post I noted unusual numbers of Russian visitors to my site. It turns out Google Analytics data for many site managers has become infested with similar fake visits. Since those visits don&rsquo;t affect search rankings or click-through results, Google is not under pressure to block the exploit. If you want to see only &lsquo;real&rsquo; GA visitor data without the haze of spammed results, you&rsquo;ll need to do a little work to hide them.</p>
 
+<p><strong>Mike Sullivan</strong> has outlined in great detail how to block this data. He also explains why suggested edits to your <code>.htaccess</code> file do nothing. How can they when there never was a real visit? His solution is not simple, but it <em>will</em> help you understand how Google Analytics can be adjusted to show only &lsquo;real&rsquo; data. <span class="anchor"> <a href="http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/">&nbsp;Read his article here.&nbsp;</a> </span></p>
 
-
-
-<p><strong>Mike Sullivan</strong> has outlined in great detail how to block this data from website results. He also explains why suggested edits of <code>.htaccess</code> files cannot block this exploit. How can they when there was never a real visit? His solution is not simple, but it <em>will</em> help you understand how Google Analytics can be adjusted to show only &lsquo;real&rsquo; data. <span style="background-color:#CFB6D6"> <a href="http://www.analyticsedge.com/2014/12/removing-referral-spam-google-analytics/">Read Mike&rsquo;s article here.</a> </span></p>
-
-
-
-
-<p>It turns out this challenge is the gift of a Russian programmer of great skill and less maturity who developed a GA code generator. He sends data to Google Analytics as if by websites that have the misfortune to share one of his randomly generated GA codes. Since these visits do not actually happen, Google is able to ignore them for their own uses. Unfortunately they obscure real data on Google Analytics, leaving their reports almost useless to website owners.</p>
-
-
-
+<p>It turns out this challenge is the gift of a Russian programmer of considerable skill and less maturity who developed a GA code generator. He is sending data to Google Analytics as if by websites that have the misfortune to share one of his randomly generated GA codes. Since these visits do not actually happen, Google is able to ignore them for their own uses. Unfortunately they obscure real data on Google Analytics, leaving reports almost useless to website owners.</p>
 
 <p>It is not clear that the guy causing all this data havoc is getting anything out of this but publicity. On the other hand, publicity may be all he wants&hellip;.</p>
-
 ]]></content>
   </entry>
   

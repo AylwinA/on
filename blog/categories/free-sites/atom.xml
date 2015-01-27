@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Free-sites | A Rambler&rsquo;s Blog]]></title>
   <link href="https://aylwina.github.io/on/blog/categories/free-sites/atom.xml" rel="self"/>
   <link href="https://aylwina.github.io/on/"/>
-  <updated>2015-01-24T15:25:04-08:00</updated>
+  <updated>2015-01-27T14:29:38-08:00</updated>
   <id>https://aylwina.github.io/on/</id>
   <author>
     <name><![CDATA[Aylwin]]></name>
@@ -20,51 +20,23 @@
     <id>https://aylwina.github.io/on/blog/2014/11/21/trial-and-error</id>
     <content type="html"><![CDATA[<p>I have to confess this isn&rsquo;t my first blog. While living in china I tried out a blogging site that I filled with pictures to flesh out bare accounts about my travels. Then microsoft&rsquo;s corporate wizards bought the one I&rsquo;d used, merging it with another. The formatting was altered so much that the bulk of my images looked pathetic. I was lazy about fixing them, which in hindsight was probably a good thing. Soon after, the great firewall of china reared up and blocked the new site completely.</p>
 
-
-
-
 <p>My next effort was part of my own small business website that was supposed to promote the wide range of my developer skills. As you can guess, that cramped my creativity. A lot. There was no way I could rant about trivia on a site promoting dull but reliable web-design efforts. The site cost more than the work it was bringing in (none) so eventually it too was abandoned.</p>
-
-
-
 
 <p>Last month a friend inadvertently convinced me to try blogging again, this time with the hope that I will be consistent enough and interesting enough to have these rambles form the basis of an ebook. Well, actually, she figured I should just sit down and write one. Having tried many times what for me always turns into an unpleasant and unfruitful process, I&rsquo;m instead hoping random spells of creativity will magically coalesce into something interesting. At least this way I&rsquo;ll have <em>some</em> pages presentable. Willing to take any bets on my eventual success?</p>
 
-
-
-
 <p>If it doesn&rsquo;t work that way, I&rsquo;m hoping this site will at least end up an aesthetically acceptable blog. To that end, I want full control, yet I&rsquo;m too cheap to be paying to publish. After all, it doesn&rsquo;t make sense to count on earning big bucks from offering unconventional (yet only occasionally controversial) opinions to the world. Well, at least not these days. The internet is cluttered with so many millions of words supporting so many strange ideas that I can&rsquo;t rationally expect anyone to find this site.</p>
-
-
-
 
 <p>What you find yourself (almost miraculously) reading is starting its life hosted on github. In the process of getting this site up I ran into innumerable headaches. Jekyll (the software running this site) ended up paired with octopress, after abandoning pairings with yeoman and grunt. I was driven back to github after failing to reliably deploy to heroku and openshift. For some reason I didn&rsquo;t even get around to testing amazon&rsquo;s host, even though they promise to charge only pennies a month on the low level usage I expect. At least I learned something. Several days of frustration made it clear why so many people willingly pay for the pleasure of seeing their words looking good online.</p>
 
-
-
-
 <p>To edit each post I now use notepad++, then use a command window to create a temporary local site to see how it looks. When everything works, in another command window I run a rake routine that pushes the new version to github. Easy peasy, eh?</p>
-
-
-
 
 <p>The cause of most of my problems were instructions that didn&rsquo;t work. While most of the world uses windows computers, almost all the clever dudes setting up free stuff do so in some flavour of unix. Windows, based on unix since NT, only with a great deal of persuasion will do full blown unix type things. Using my windows box to attempt to follow apple based unix instructions proved to be a refined form of mental torture. Sigh.</p>
 
-
-
-
 <p>I have a hard time understanding how apple, a reluctant convert to unix and for years a company that filled their halls with lawyers and marketers while treating programmers as expendable, somehow became the favourite of web programming geeks. Well, maybe I should confess I suspect why&mdash;Apple simply didn&rsquo;t have the programming chops to make the flavour of unix they bought run software from their old OS, so the unix they use remains easy to port to. Coding is so much easier when you are willing to blow off the entire powerPC user base.</p>
-
-
-
 
 <p>Since you read this far, you might enjoy a picture from one of the adventures in china that inspired my original blog. Below is a scene from jiuhuashan, or nine flower mountain, a popular buddhist site. The original temple the pond graces was started shortly after the arrival, almost 1300 years ago, of an intensely devoted korean prince. He chose to live in the wilds of china, an area so difficult to reach that even now it is barely touched by development. He spent 75 years living on the mountain as an impoverished but increasingly enlightened buddhist monk. He is said to be still there, sitting in samadhi inside a massive bell sealed under the foundations of the main building. Through much of china he is revered as the incarnation of the god of earth.</p>
 
-
-
-
-<p><img src="https://aylwina.github.io/on/images/Jiuhuashan-pond.jpg" alt="pond in front of Huacheng Temple" /></p>
-
+<p><img src="/images/Jiuhuashan-pond.jpg" alt="pond in front of Huacheng Temple" /></p>
 ]]></content>
   </entry>
   
